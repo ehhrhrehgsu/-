@@ -1,3 +1,9 @@
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// HTML template
+const privacyHTML = `
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -255,3 +261,18 @@
     </div>
 </body>
 </html>
+`;
+
+// Routes
+app.get('/', (req, res) => {
+    res.send(privacyHTML);
+});
+
+app.get('/privacy', (req, res) => {
+    res.send(privacyHTML);
+});
+
+// Start server
+app.listen(PORT, () => {
+    console.log(`🚀 Privacy Policy Server running on port ${PORT}`);
+});
