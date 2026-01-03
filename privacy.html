@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية - بوت الأذكار</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-right: 4px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h2::before {
+            content: "●";
+            font-size: 0.6em;
+        }
+
+        .section p {
+            color: #555;
+            font-size: 1.05em;
+            margin-bottom: 12px;
+        }
+
+        .section ul {
+            margin-right: 20px;
+            color: #555;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+            padding-right: 10px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 30px 0;
+            border-right: 4px solid #84fab0;
+        }
+
+        .highlight p {
+            color: #2c3e50;
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.95em;
+        }
+
+        .footer a {
+            color: #84fab0;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .date {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.1);
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: #667eea;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤲 سياسة الخصوصية</h1>
+            <p>بوت الأذكار - راحة بالك أولويتنا</p>
+            <span class="date">آخر تحديث: يناير 2026</span>
+        </div>
+
+        <div class="content">
+            <div class="highlight">
+                <p>
+                    نحن نلتزم بحماية خصوصيتك. بوت الأذكار مصمم ليكون بسيطًا وآمنًا، ولا يجمع أي بيانات شخصية غير ضرورية.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>البيانات التي نجمعها</h2>
+                <p>يقوم البوت بجمع الحد الأدنى من البيانات اللازمة لتشغيله:</p>
+                <ul>
+                    <li><strong>معرف المستخدم (User ID):</strong> لتحديد هوية المستخدم وإرسال الأذكار</li>
+                    <li><strong>إعدادات التذكير:</strong> الأوقات المفضلة لإرسال الأذكار</li>
+                    <li><strong>حالة الاشتراك:</strong> لمعرفة ما إذا كان الإشعارات مفعلة أم لا</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>البيانات التي لا نجمعها</h2>
+                <ul>
+                    <li>❌ الاسم الشخصي</li>
+                    <li>❌ رقم الهاتف</li>
+                    <li>❌ البريد الإلكتروني</li>
+                    <li>❌ الموقع الجغرافي</li>
+                    <li>❌ محتوى المحادثات الشخصية</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>كيف نستخدم بياناتك</h2>
+                <p>نستخدم البيانات المجمعة فقط من أجل:</p>
+                <ul>
+                    <li>إرسال الأذكار اليومية في الأوقات المحددة</li>
+                    <li>حفظ تفضيلاتك للإشعارات</li>
+                    <li>تحسين أداء البوت وإصلاح الأخطاء</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>مشاركة البيانات</h2>
+                <p>
+                    <strong>لا نشارك بياناتك مع أي جهة خارجية.</strong> جميع البيانات محفوظة بشكل آمن ولا يتم بيعها أو تأجيرها أو مشاركتها مع أطراف ثالثة.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>أمان البيانات</h2>
+                <p>
+                    نستخدم إجراءات أمان معيارية لحماية بياناتك. البيانات محفوظة على خوادم آمنة ومشفرة.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>حقوقك</h2>
+                <p>يمكنك في أي وقت:</p>
+                <ul>
+                    <li>إيقاف الإشعارات من خلال البوت</li>
+                    <li>حذف جميع بياناتك باستخدام أمر الحذف</li>
+                    <li>التواصل معنا لأي استفسارات حول بياناتك</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>التغييرات على السياسة</h2>
+                <p>
+                    قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. سيتم إعلامك بأي تغييرات جوهرية من خلال البوت أو هذه الصفحة.
+                </p>
+            </div>
+
+            <div class="highlight">
+                <p>
+                    <strong>ملاحظة مهمة:</strong> بوت الأذكار هو مشروع مفتوح المصدر، يمكنك مراجعة الكود على GitHub للتأكد من التزامنا بالخصوصية.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>بوت الأذكار © 2026 - مشروع مفتوح المصدر</p>
+            <p>للاستفسارات أو الدعم: <a href="#">تواصل معنا</a></p>
+            <p style="margin-top: 15px; opacity: 0.8;">صُنع بـ ❤️ لوجه الله تعالى</p>
+        </div>
+    </div>
+</body>
+</html>
